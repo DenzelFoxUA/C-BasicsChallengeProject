@@ -7,11 +7,14 @@ namespace C_BasicsChallengeProject
         static void Main(string[] args)
         {
 
-            Console.WriteLine("\tForEachChallenge");
+            /*Console.WriteLine("\tForEachChallenge");
             ForEachChallenge.ForEachChallenge.Run();
 
             Console.WriteLine("\tExtentionMetodsChallenge");
-            ExtentionMethodsChallenge.ExtentionMethodsChallenge.Run();
+            ExtentionMethodsChallenge.ExtentionMethodsChallenge.Run();*/
+
+            Console.WriteLine("\tAgeCalculator");
+            BirthdateCalculatorChallenge.BirthdateCalculator.Run();
             
         }
     }
