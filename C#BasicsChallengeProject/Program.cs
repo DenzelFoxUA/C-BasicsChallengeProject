@@ -1,10 +1,12 @@
-﻿namespace C_BasicsChallengeProject
+﻿using C_BasicsChallengeProject.ForEachChallenge;
+
+namespace C_BasicsChallengeProject
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            ForEachChallenge.ForEachChallenge.Run();
         }
     }
 }
